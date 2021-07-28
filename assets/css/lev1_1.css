@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+div {
+  border: 1px solid rgb(199, 102, 100);
+  border-radius: 10px;
+  background-color: rgb(199, 102, 100);
+  text-align: center;
+  color: white;
+  padding: 5%;
+  width: 100px;
+  height: 100px;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+div:hover {
+  transform: translateY(50px) rotate(180deg) scale(2);
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-top: 25%;
+  padding-left: 25%;
+  background-color: lightcyan;
+}
+div {
+  border: 1px solid green;
+  border-radius: 7px;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  padding: 3%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  color: white;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+div:nth-of-type(1):hover {
+  transform: translate(50px, 40px);
+}
+div:nth-of-type(2):hover {
+  transform: translateX(-50px);
+}
+div:nth-of-type(3):hover {
+  transform: translateY(50px);
+}
+div:nth-of-type(4):hover {
+  transform: rotate(45deg);
+}
+div:nth-of-type(5):hover {
+  transform: scale(1.5);
+}
+div:nth-of-type(6):hover {
+  transform: skew(25deg);
+}
